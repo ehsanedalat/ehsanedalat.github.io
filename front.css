@@ -150,8 +150,8 @@ h1 {
 #showMoreBtn {
     background: none;
     border: none;
-    color: blue;
-    text-decoration: underline;
+	color: #880308; 
+  	text-decoration: none;
     cursor: pointer;
     outline: none; /* Remove focus highlight for some browsers */
 }
