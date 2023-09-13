@@ -147,3 +147,15 @@ h1 {
 .show-content {
     display: block;
 }
+#showMoreBtn {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none; /* Remove focus highlight for some browsers */
+}
+
+#showMoreBtn:hover {
+    text-decoration: none;
+}
