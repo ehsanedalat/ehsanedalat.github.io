@@ -139,3 +139,11 @@ DIV.abstract {
 h1 {
   margin: 0;
 }
+
+.hidden-content {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
