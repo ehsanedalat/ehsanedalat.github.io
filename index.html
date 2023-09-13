@@ -559,6 +559,19 @@ StatCounter" href="https://statcounter.com/" target="_blank"><img
 class="statcounter" src="https://c.statcounter.com/12239089/0/88bb0bfa/1/"
 alt="Web Analytics Made Easy - StatCounter"></a></div></noscript>
 <!-- End of Statcounter Code -->
+<script>
+	document.getElementById("showMoreBtn").addEventListener("click", function() {
+	    var content = document.querySelector(".hidden-content");
+	    if (content.style.display === "none" || content.style.display === "") {
+	        content.style.display = "block";
+	        this.textContent = "Show Less";
+	    } else {
+	        content.style.display = "none";
+	        this.textContent = "Show More";
+	    }
+});
+
+</script>
 
 
 
